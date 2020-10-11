@@ -1,0 +1,19 @@
+in VSCode: 
+
+1.  git --version // git version 2.19.1.windows.1
+2.  git config user.name // 'name'
+    git config user.email // 'email'
+3.  when we work on project:
+      modified (M) -> changed files; not committed
+      staging (S) -> add any changed file to staging that you want to committed
+      committed (C) -> 
+4.  git init // initialized empty Git repository in the current path -> H:\Python\Python_KnBase\.git
+    by default branch - master is created
+5.  git status // shows the current file status -> A (files added to Staging), U (untracked files, not added)  
+6.  git add <file> // adds that file to the Staging Area
+                   // also to update what will be committed
+    git add . // adds all files to the Staging Area
+7.  git rm --cached <file> // to unstage
+8.  git checkout <file> // to discard changes in working directory (of a file in the Staging Area)   
+9.  git commit -m "message" // to commit
+10. 
