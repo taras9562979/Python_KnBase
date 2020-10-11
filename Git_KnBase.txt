@@ -1,5 +1,3 @@
-in VSCode: 
-
 1.  git --version // git version 2.19.1.windows.1
 2.  git config user.name // 'name'
     git config user.email // 'email'
@@ -33,8 +31,12 @@ in VSCode:
         revert commit -> 
         reset commit -> most dangerous
 13. git checkout 4679b55 // Head is now at 4679b55 (Commit ID)   
-14. git checkout master // switched to branch master
-15. git revert <commit ID>
-16. git reset <commit ID> // deletes all commits after this but preserves the code in the Editor
-17. git reset <commit ID> --hard // no changes preserved
-18.     
+14. git revert <commit ID>
+15. git reset <commit ID> // deletes all commits after this but preserves the code in the Editor
+16. git reset <commit ID> --hard // no changes preserved
+
+17. git branch <branch_name> // creates new branch
+18. git branch -a // shows all the branches
+                  //
+19. git checkout <branch_name> // switched to branch <branch_name>    
+    git checkout master // switched to branch master
