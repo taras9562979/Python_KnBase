@@ -16,4 +16,16 @@ in VSCode:
 7.  git rm --cached <file> // to unstage
 8.  git checkout <file> // to discard changes in working directory (of a file in the Staging Area)   
 9.  git commit -m "message" // to commit
-10. 
+                            // H:\Python\Python_KnBase>git commit -m "initial commit"
+                            // [master (root-commit) 5ee7db0] initial commit
+                            // 2 files changed, 48 insertions(+)
+                            // create mode 100644 Git_KnBase.txt
+                            // create mode 100644 Python_KnBase.txt 
+10. git log // full description of all Committ History
+            // commit 5ee7db0ad1ee15ab8a8d672162f1b0c6e5a04ca1 (HEAD -> master)
+            // Author: Taras Kiritchenko <taras.kiritchenko@gmail.com>
+            // Date:   Sun Oct 11 19:08:07 2020 +0300
+            // initial commit
+11. git log --oneline // shorter version of git log            
+                      // 5ee7db0 (HEAD -> master) initial commit
+12. 
