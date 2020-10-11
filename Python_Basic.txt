@@ -1,0 +1,4 @@
+1.   Variables and Data Types -> 11.07 (11.07)
+2.   Basic Operators and Input -> 11.47 (22.54)
+3.   Conditions -> 8.37 (31.31)
+4.   
