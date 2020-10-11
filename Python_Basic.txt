@@ -9,4 +9,12 @@
 9.   Iteration by Item -> 5.59 (1.18.18)
 10.  String Methods -> 6.20 (1.24.38)
 11.  Slice Operator -> 6.57 (1.31.35)
-12.  
+12.  Functions -> 8.23 (1.39.58)
+13.  Reading text file -> 8.17 (1.48.15)
+14.  Writing to text file -> 4.13 (1.52.28)
+15.  Using .count() and .find() -> 6.53 (1.59.21)
+16.  Intro to modular programming -> 7.50 (2.07.11)
+17.  Optional Parameters -> 5.49 (2.13.00)
+18.  Try and Except -> 4.47 (2.17.47)
+19.  Global vs Local variables -> 8.35 (2.26.22)
+20.  Classes and Objects -> 11.14 (2.37.36)
