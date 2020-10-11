@@ -1,4 +1,12 @@
 1.   Variables and Data Types -> 11.07 (11.07)
 2.   Basic Operators and Input -> 11.47 (22.54)
 3.   Conditions -> 8.37 (31.31)
-4.   
+4.   if - elif - else -> 12.55 (44.26)
+5.   Chained conditionals and Nested statements -> 7.30 (51.56)
+6.   For Loops -> 5.54 (57.50)
+7.   While Loops -> 6.17 (1.04.07)
+8.   Lists and Tuples -> 8.12 (1.12.19)
+9.   Iteration by Item -> 5.59 (1.18.18)
+10.  String Methods -> 6.20 (1.24.38)
+11.  Slice Operator -> 6.57 (1.31.35)
+12.  
