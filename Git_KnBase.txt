@@ -28,4 +28,13 @@ in VSCode:
             // initial commit
 11. git log --oneline // shorter version of git log            
                       // 5ee7db0 (HEAD -> master) initial commit
-12. 
+12. Undoing Things:
+        checkout commit -> least dangerous
+        revert commit -> 
+        reset commit -> most dangerous
+13. git checkout 4679b55 // Head is now at 4679b55 (Commit ID)   
+14. git checkout master // switched to branch master
+15. git revert <commit ID>
+16. git reset <commit ID> // deletes all commits after this but preserves the code in the Editor
+17. git reset <commit ID> --hard // no changes preserved
+18.     
