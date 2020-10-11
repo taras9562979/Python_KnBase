@@ -42,4 +42,4 @@
     git checkout master // switched to branch master
 20. git branch -D <branch_name> // deletes the branch    
 21. Merging Branches -> you have to be on the branch that you want to merge into (i.e. master)
-22. 
+22. git merge <branch_name> // 
