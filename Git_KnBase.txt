@@ -40,6 +40,26 @@
                   //
 19. git checkout <branch_name> // switched to branch <branch_name>    
     git checkout master // switched to branch master
-20. git branch -D <branch_name> // deletes the branch    
+20. git branch -D <branch_name> // deletes the branch  (when it is not merged yet) 
+    git branch -d <branch_name> // deletes merged branch
+                                // H:\Python\Python_KnBase>git branch -d python_basic
+                                // Deleted branch python_basic (was 9e40d34). 
 21. Merging Branches -> you have to be on the branch that you want to merge into (i.e. master)
 22. git merge <branch_name> // 
+                            // H:\Python\Python_KnBase>git merge python_basic
+                            // Updating 6f74bf5..9e40d34
+                            // Fast-forward
+                            // Git_KnBase.txt          |  5 ++++-
+                            // Python_Advanced.txt     |  0
+                            // Python_Basic.txt        | 20 ++++++++++++++++++++
+                            // Python_Intermediate.txt |  0
+                            // 4 files changed, 24 insertions(+), 1 deletion(-)
+                            // create mode 100644 Python_Advanced.txt
+                            // create mode 100644 Python_Intermediate.txt
+23. Merging possibilities -> merge made by the 'recursive' strategy (after fast-forward to merge one branch,
+                             new features from the second branch are added recursively) 
+24. Conflicts ->
+25. GitHub ->
+          option 1 -> you're midway through the Project locally; create remote repo on GitHub; push your Project
+          option 2 -> no Project yet; create new repo on GitHub; clone it locally (better way)   
+26.                                                                

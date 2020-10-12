@@ -6,24 +6,24 @@ Usages:
 1.   Basic Data Types (int, float, string, bool)
 2.   Output and Printing -> print(  sep='', end=''), f-strings
 3.   Variables
-4.   User Input -> input('prompt'), type conversion from string
+4.   User Input -> input('prompt'), input(),  type conversion from string
 5.   Basic Operators -> (+, - , /,  *, **, //, %)
 6.   String Methods -> (lower(), upper(), capitalize, count('substr'), )
 7.   Conditional Operators -> (==, !=, <=, >=, < , >, ) -> print(ord('a')) // 97 ->
 8.   Chained Conditionals -> (and, or, not, )
-9.   if, else, elif
-10. Lists -> len(), append(' '), extend([ ]), pop(' '),  
-11. Tuples -> 
-12. for loop -> for i, elem in enumerate(x):    where x = [4,3,9]
-13. while loop -> 
-14. slice operator -> [start: stop: step] same for tuples and strings  [: : -1] -> reverses a collection 
-15. Sets -> add(' '), remove(' '),   x in s -> true or false ; s1.union(s2) , intersection, difference, 
-16. Dictionnaries -> {key: value},  dict.keys(), dict.values(), del x['key'],  for key, value in dict.items(): , 
-17. Comprehensions -> 
-18. Functions -> return x,y -> multiple values return is given in a tuple (x, y) -> 
-19. Unpack operastor -> x = [1, 2, 3]  print(*x) //  1 2 3 // each element unpacked and printed separately -> ** for dictionnaries 
-20. *args, **kwargs ->
-21. Scope and Global -> global x (changes x defined outside the function inside that function) 
-22. Exceptions -> (try, except, finally), 
-23. Lambda -> 
-24. Map and Filter -> 
+9.   if, else, elif -> 
+10.  Lists -> len(), append(' '), extend([ ]), pop(' '),  
+11.  Tuples -> 
+12.  For loop -> for i, elem in enumerate(x):    where x = [4,3,9]
+13.  While loop -> 
+14.  Slice operator -> [start: stop: step] same for tuples and strings  [: : -1] -> reverses a collection 
+15.  Sets -> add(' '), remove(' '),   x in s -> true or false ; s1.union(s2) , intersection, difference, 
+16.  Dictionnaries -> {key: value},  dict.keys(), dict.values(), del x['key'],  for key, value in dict.items(): , 
+17.  Comprehensions -> 
+18.  Functions -> return x,y -> multiple values return is given in a tuple (x, y) -> 
+19.  Unpack operastor -> x = [1, 2, 3]  print(*x) //  1 2 3 // each element unpacked and printed separately -> ** for dictionnaries 
+20.  *args, **kwargs ->
+21.  Scope and Global -> global x (changes x defined outside the function inside that function) 
+22.  Exceptions -> (try, except, finally), 
+23.  Lambda -> 
+24.  Map and Filter -> 
